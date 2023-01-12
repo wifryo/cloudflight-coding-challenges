@@ -69,6 +69,9 @@ path = path_data[3:]
 current_column = 0
 current_row = 0
 
+
+
+
 # Find initial column/row from position
 if starting_position%cols == 0:
     starting_row = int(starting_position/cols - 1)
